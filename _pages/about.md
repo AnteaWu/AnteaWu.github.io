@@ -11,6 +11,7 @@ redirect_from:
 About me
 ======
 B.S., University of Science and Technology of China; 
+
 Incoming Ph.D. student, College of AI, Tsinghua University.
 
 My research interests: world models, video generation.
