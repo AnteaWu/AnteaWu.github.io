@@ -25,18 +25,20 @@ Education
 <div class="education-timeline">
   <div class="education-timeline__item">
     <div class="education-timeline__marker"></div>
-    <img class="education-timeline__logo" src="{{ '/images/shenzhong.jpg' | relative_url }}" alt="Shenzhen Middle School logo">
+    <img class="education-timeline__logo" src="{{ '/images/shenzhong.jpg' | relative_url }}" alt="Shenzhen Middle School logo" style="width:48px;height:48px;max-width:48px;max-height:48px;object-fit:contain;flex-shrink:0;">
     <div class="education-timeline__content">
-      <h3>Shenzhen&nbsp;&nbsp;Middle School</h3>
-      <p>2020-2023</p>
+      <h3>Shenzhen Middle School</h3>
+      <p class="edu-type">High School</p>
+      <p>2020 - 2023</p>
     </div>
   </div>
   <div class="education-timeline__item">
     <div class="education-timeline__marker"></div>
-    <img class="education-timeline__logo" src="{{ '/images/USTC.jpg' | relative_url }}" alt="University of Science and Technology logo">
+    <img class="education-timeline__logo" src="{{ '/images/USTC.jpg' | relative_url }}" alt="University of Science and Technology of China logo" style="width:48px;height:48px;max-width:48px;max-height:48px;object-fit:contain;flex-shrink:0;">
     <div class="education-timeline__content">
-      <h3>University of Science and Technology</h3>
-      <p>2023-Present</p>
+      <h3>University of Science and Technology of China</h3>
+      <p class="edu-type">B.S. in Computer Science</p>
+      <p>2023 - Present</p>
     </div>
   </div>
 </div>
