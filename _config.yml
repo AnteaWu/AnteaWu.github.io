@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "吴家欣的个人学术主页"
+title                    : "Jiaxin Wu"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
@@ -27,7 +27,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Artificial Intelligence Student"
   location         : "Hefei, China"
-  employer         : "B.S., University of Science and Technology of China; Incoming Ph.D. student, School of Artificial Intelligence, Tsinghua University"
+  employer         : "University of Science and Technology of China"
   uri              : # URL
   email            : "anmicius@mail.ustc.edu.cn"
 

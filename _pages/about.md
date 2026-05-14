@@ -8,12 +8,12 @@ redirect_from:
 ---
 
 
-个人介绍
+About Me
 ======
 
-我是[中国科学技术大学](https://www.ustc.edu.cn/)的一名大三本科生，目前就读于人工智能英才班。
+B.S., University of Science and Technology of China; Incoming Ph.D. student, School of Artificial Intelligence, Tsinghua University.
 
-我的研究兴趣：大模型、AIGC、世界模型
+My research interests: world models, video generation.
 
 
 
