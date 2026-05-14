@@ -40,6 +40,18 @@
     padding-right: 0;
   }
 
+  // Card wrapper for the author profile section
+  > div[itemscope] {
+    @include breakpoint($large) {
+      background: var(--global-bg-color);
+      border: 1px solid var(--global-border-color);
+      border-radius: 10px;
+      padding: 20px 16px 16px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+      text-align: center;
+    }
+  }
+
   h2, h3, h4, h5, h6 {
     margin-bottom: 0;
     font-family: $sans-serif-narrow;
@@ -55,9 +67,6 @@
     line-height: 1.5;
   }
 
-  img {
-    width: 100%;
-  }
 }
 
 .sidebar__right {
@@ -81,39 +90,51 @@
    ========================================================================== */
 
 .author__avatar {
-  display: table-cell;
-  vertical-align: top;
-  width: 36px;
-  // set width only, for non-square avatars
-  // height: 36px;
+  display: block;
+  width: 100px;
+  margin: 0 auto 12px auto;
 
   @include breakpoint($large) {
     display: block;
-    width: auto;
+    width: 100%;
     height: auto;
+    margin-bottom: 16px;
   }
 
   img {
-    max-width: 175px;
-    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
 
     @include breakpoint($large) {
-      padding: 5px;
+      width: 100%;
+      height: auto;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+      max-width: 100%;
+      border-radius: 8px;
       border: 1px solid var(--global-border-color);
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
     }
   }
 }
 
 .author__content {
-  display: table-cell;
-  vertical-align: top;
-  padding-left: 15px;
-  padding-right: 25px;
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
   line-height: 1;
 
   @include breakpoint($large) {
     display: block;
     width: 100%;
+    text-align: center;
     padding-left: 0;
     padding-right: 0;
   }
@@ -159,11 +180,10 @@
 
 .author__urls-wrapper {
   position: relative;
-  display: table-cell;
-  vertical-align: middle;
+  display: block;
+  width: 100%;
   font-family: $sans-serif;
   z-index: 10;
-  position: relative;
   cursor: pointer;
 
   li:last-child {
@@ -177,6 +197,7 @@
   }
 
   button {
+    display: none;
     margin-bottom: 0;
 
     @include breakpoint($large) {
@@ -186,18 +207,17 @@
 }
 
 .author__urls {
-  display: none;
-  position: absolute;
-  right: 0;
-  margin-top: 15px;
-  padding: 10px;
+  display: block;
+  position: relative;
+  margin: 0;
+  margin-top: 10px;
+  padding: 0;
   list-style-type: none;
-  border: 1px solid var(--global-border-color);
-  border-radius: $border-radius;
-  background: var(--global-bg-color);
-  z-index: -1;
-  box-shadow: 0 0 10px rgba(#000, 0.25);
+  border: 0;
+  background: transparent;
+  box-shadow: none;
   cursor: default;
+  text-align: left;
 
   @include breakpoint($large) {
     display: block;
