@@ -1,5 +1,6 @@
 ---
 permalink: /
+title: "Jiaxin Wu"
 author_profile: true
 hide_title: true
 redirect_from: 
