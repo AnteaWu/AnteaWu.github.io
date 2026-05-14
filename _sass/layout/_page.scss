@@ -18,9 +18,9 @@
 
 .page {
   @include breakpoint($large) {
-    @include span(9 of 12 last);
+    @include span(10 of 12 last);
     @include prefix(0.5 of 12);
-    @include suffix(2 of 12);
+    @include suffix(0 of 12);
   }
 
   .page__inner-wrap {
@@ -98,6 +98,106 @@
 
   .small {
     font-size: $type-size-6;
+  }
+
+  .education-timeline {
+    position: relative;
+    margin: 0.75rem 0 1.75rem;
+    padding-left: 1.4rem;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0.35rem;
+      bottom: 0.35rem;
+      left: 0.35rem;
+      width: 2px;
+      background: #e7c8bb;
+    }
+  }
+
+  .education-timeline__item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+    margin-bottom: 1rem;
+  }
+
+  .education-timeline__item:last-child {
+    margin-bottom: 0;
+  }
+
+  .education-timeline__marker {
+    position: absolute;
+    left: -1.18rem;
+    width: 0.55rem;
+    height: 0.55rem;
+    border-radius: 50%;
+    background: #bf7a5d;
+    border: 2px solid var(--global-bg-color);
+  }
+
+  .education-timeline__logo {
+    flex: 0 0 52px;
+    width: 52px;
+    height: 52px;
+    object-fit: contain;
+  }
+
+  .education-timeline__content {
+    h3 {
+      margin: 0 0 0.15rem;
+      font-size: 0.95em;
+      font-weight: 700;
+    }
+
+    p {
+      margin: 0;
+      color: #b9785d;
+      font-size: 0.85em;
+      font-weight: 700;
+    }
+  }
+
+  .research-publication {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.25rem;
+    margin-top: 0.75rem;
+  }
+
+  .research-publication__media {
+    flex: 0 0 280px;
+    max-width: 280px;
+
+    object {
+      display: block;
+      width: 100%;
+      height: 150px;
+      border: 1px solid var(--global-border-color);
+      border-radius: $border-radius;
+      background: var(--global-bg-color);
+    }
+  }
+
+  .research-publication__body {
+    flex: 1 1 auto;
+
+    p {
+      margin-bottom: 0.6em;
+    }
+  }
+
+  @include breakpoint(max-width $medium) {
+    .research-publication {
+      display: block;
+    }
+
+    .research-publication__media {
+      max-width: 100%;
+      margin-bottom: 0.75rem;
+    }
   }
 
   /* blockquote citations */
