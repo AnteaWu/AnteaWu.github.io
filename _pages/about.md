@@ -1,6 +1,6 @@
 ---
 permalink: /
-# title: "Welcome to my personal academic websites"
+title: "Jiaxin Wu"
 author_profile: true
 hide_title: true
 redirect_from: 
@@ -37,7 +37,7 @@ Education
     <img class="education-timeline__logo" src="{{ '/images/USTC.jpg' | relative_url }}" alt="University of Science and Technology of China logo" style="width:48px;height:48px;max-width:48px;max-height:48px;object-fit:contain;flex-shrink:0;">
     <div class="education-timeline__content">
       <h3>University of Science and Technology of China</h3>
-      <p class="edu-type">B.S. in Computer Science</p>
+      <p class="edu-type">B.S. in Artificial Intelligence</p>
       <p>2023 - Present</p>
     </div>
   </div>
