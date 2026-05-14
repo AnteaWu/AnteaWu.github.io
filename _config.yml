@@ -13,21 +13,21 @@ title                    : "吴家欣的个人学术主页"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
-url                      : https://JiaxinWu-25.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+url                      : https://AnteaWu.github.io # the base hostname & protocol for your site
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "JiaxinWu-25/JiaxinWu-25.github.io"
+repository               : "AnteaWu/AnteaWu.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "吴家欣"
+  avatar           :
+  name             : "Jiaxin Wu"
   pronouns         : # example: "she/her"  
-  bio              : "人工智能专业学生"
-  location         : "中国合肥"
-  employer         : "中国科学技术大学"
+  bio              : "Artificial Intelligence Student"
+  location         : "Hefei, China"
+  employer         : "B.S., University of Science and Technology of China; Incoming Ph.D. student, School of Artificial Intelligence, Tsinghua University"
   uri              : # URL
   email            : "anmicius@mail.ustc.edu.cn"
 
@@ -46,7 +46,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "https://github.com/JiaxinWu-25"
+  github           : "https://github.com/AnteaWu"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
