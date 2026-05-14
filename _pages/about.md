@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Jiaxin Wu
+About me
 ======
 B.S., University of Science and Technology of China; 
 Incoming Ph.D. student, College of AI, Tsinghua University.
