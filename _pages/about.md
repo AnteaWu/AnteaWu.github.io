@@ -7,10 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-
-About Me
-======
-
 B.S., University of Science and Technology of China; Incoming Ph.D. student, School of Artificial Intelligence, Tsinghua University.
 
 My research interests: world models, video generation.
@@ -23,9 +19,5 @@ Research
 ======
 
 [Quantitative Video World Model Evaluation for Geometric-Consistency](https://pdi-bench.github.io/)
-
 **Jiaxin Wu**, Yihao Pi, Yinling Zhang, Yuheng Li, Xueyan Zou
 
-Tsinghua University - IEI Lab, UW-Madison, Adobe Research
-
-*Project Page*
