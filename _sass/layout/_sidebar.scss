@@ -247,6 +247,12 @@
     white-space: nowrap;
   }
 
+  // Allow long profile metadata (e.g. employer) to wrap on desktop sidebar.
+  .author__desktop {
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+
   a {
     display: block;
     margin-bottom: 5px;
