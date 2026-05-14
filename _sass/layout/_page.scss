@@ -182,13 +182,10 @@
     flex: 0 0 280px;
     max-width: 280px;
 
-    object {
+    img {
       display: block;
       width: 100%;
-      height: 150px;
-      border: 1px solid var(--global-border-color);
       border-radius: $border-radius;
-      background: var(--global-bg-color);
     }
   }
 

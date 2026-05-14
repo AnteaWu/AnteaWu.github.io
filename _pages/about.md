@@ -49,9 +49,9 @@ Research
 
 <div class="research-publication">
   <div class="research-publication__media">
-    <object data="{{ '/images/metric.pdf' | relative_url }}#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf" aria-label="Metric overview">
-      <a href="{{ '/images/metric.pdf' | relative_url }}">Metric overview</a>
-    </object>
+    <a href="https://pdi-bench.github.io/">
+      <img src="{{ '/images/metric.png' | relative_url }}" alt="Metric overview" style="width:100%;display:block;border-radius:6px;">
+    </a>
   </div>
   <div class="research-publication__body">
     <p><a href="https://pdi-bench.github.io/">Quantitative Video World Model Evaluation for Geometric-Consistency</a></p>
