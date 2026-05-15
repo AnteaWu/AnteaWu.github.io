@@ -17,6 +17,9 @@
 }
 
 .page {
+  margin-top: 0;
+  padding-top: 0;
+
   @include breakpoint($large) {
     @include span(9 of 12 last);
     @include prefix(3 of 12);
@@ -53,6 +56,17 @@
 
 .page__content {
   margin-top: 0;
+  padding-top: 0;
+
+  & > *:first-child {
+    margin-top: 0;
+  }
+
+  & > *:first-child h1,
+  & > *:first-child h2,
+  & > *:first-child h3 {
+    margin-top: 0;
+  }
 
   & > h1:first-child,
   & > h2:first-child,
