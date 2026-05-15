@@ -7,7 +7,6 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
 About me
 ======
 B.S., University of Science and Technology of China; 
