@@ -9,7 +9,9 @@ redirect_from:
 ---
 About me
 ======
-B.S., University of Science and Technology of China; 
+
+I'm currently a junior student in the School of Artificial Intelligence and Data Science, University of Science and Technology of China.
+
 
 My research interests: world models, video generation.
 
