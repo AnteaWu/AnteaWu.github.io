@@ -13,7 +13,7 @@ About me
 I'm currently a junior student in the School of Artificial Intelligence and Data Science, University of Science and Technology of China.
 
 
-My research interests: world models, video generation.
+My research interests are world models, video generation and embodied AI.
 
 
 
