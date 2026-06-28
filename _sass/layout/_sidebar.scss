@@ -10,7 +10,6 @@
   -webkit-transform: translate3d(0, 0 , 0);
           transform: translate3d(0, 0 , 0);
 
-  @include clearfix();
   margin-bottom: 1em;
 
   @media (orientation: portrait) {
@@ -22,10 +21,10 @@
   }
 
   @include breakpoint($large) {
+    clear: none;
     float: none;
-    width: auto;
-    max-width: none;
     opacity: 1;
+    margin-top: 0;
     -webkit-transition: opacity 0.2s ease-in-out;
             transition: opacity 0.2s ease-in-out;
 
@@ -35,7 +34,6 @@
   }
 
   @include breakpoint($x-large) {
-    max-width: $sidebar-link-max-width;
     padding-right: 0;
   }
 
