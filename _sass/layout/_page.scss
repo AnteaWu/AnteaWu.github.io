@@ -222,17 +222,18 @@
     position: relative;
     margin: 1rem 0 1.75rem;
     padding: 0;
+  }
 
-    &::before {
-      content: "";
-      position: absolute;
-      top: 1rem;
-      bottom: 1rem;
-      left: 1rem;
-      width: 2px;
-      background: #d4a08c;
-      transform: translateX(-50%);
-    }
+  .news-timeline__line {
+    position: absolute;
+    top: 1rem;
+    bottom: 1rem;
+    left: 1rem;
+    width: 2px;
+    background: #d4a08c;
+    transform: translateX(-50%);
+    z-index: 0;
+    pointer-events: none;
   }
 
   .news-timeline__item {
@@ -264,7 +265,7 @@
     width: 2rem;
     height: 2rem;
     border-radius: 50%;
-    background: var(--global-bg-color);
+    background: #fff;
     border: 2px solid #d4a08c;
     display: flex;
     align-items: center;

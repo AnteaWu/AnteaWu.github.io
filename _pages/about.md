@@ -77,6 +77,7 @@ News
 ======
 
 <div class="news-timeline">
+  <span class="news-timeline__line" aria-hidden="true"></span>
   <div class="news-timeline__item">
     <div class="news-timeline__rail">
       <span class="news-timeline__marker" aria-hidden="true">🏆</span>
@@ -105,3 +106,29 @@ News
     </div>
   </div>
 </div>
+
+<style>
+.page__content .news-timeline {
+  position: relative !important;
+}
+.page__content .news-timeline__line {
+  position: absolute !important;
+  top: 1rem !important;
+  bottom: 1rem !important;
+  left: 1rem !important;
+  width: 2px !important;
+  background: #d4a08c !important;
+  transform: translateX(-50%) !important;
+  z-index: 0 !important;
+  display: block !important;
+}
+.page__content .news-timeline__rail,
+.page__content .news-timeline__marker {
+  position: relative !important;
+  z-index: 1 !important;
+  background-color: var(--global-bg-color, #fff);
+}
+.page__content .news-timeline__marker {
+  background: #fff !important;
+}
+</style>
