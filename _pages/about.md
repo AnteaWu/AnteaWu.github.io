@@ -66,28 +66,35 @@ Research
   </div>
 </div>
 
+
 News
 ======
 
 <div class="news-timeline">
   <div class="news-timeline__item">
-    <div class="news-timeline__marker" aria-hidden="true">🏆</div>
-    <div class="news-timeline__content">
-      <span class="news-timeline__date">2509</span>
+    <div class="news-timeline__rail">
+      <span class="news-timeline__marker" aria-hidden="true">🏆</span>
+    </div>
+    <div class="news-timeline__body">
+      <div class="news-timeline__date">2509</div>
       <p>Awarded the National Scholarship (Top 1%).</p>
     </div>
   </div>
   <div class="news-timeline__item">
-    <div class="news-timeline__marker" aria-hidden="true">🌟</div>
-    <div class="news-timeline__content">
-      <span class="news-timeline__date">2509</span>
+    <div class="news-timeline__rail">
+      <span class="news-timeline__marker" aria-hidden="true">🌟</span>
+    </div>
+    <div class="news-timeline__body">
+      <div class="news-timeline__date">2509</div>
       <p>Served as President of the Student Union, School of Artificial Intelligence and Data Science, USTC.</p>
     </div>
   </div>
   <div class="news-timeline__item">
-    <div class="news-timeline__marker" aria-hidden="true">🏆</div>
-    <div class="news-timeline__content">
-      <span class="news-timeline__date">2409</span>
+    <div class="news-timeline__rail">
+      <span class="news-timeline__marker" aria-hidden="true">🏆</span>
+    </div>
+    <div class="news-timeline__body">
+      <div class="news-timeline__date">2409</div>
       <p>Awarded the National Scholarship (Top 1%).</p>
     </div>
   </div>

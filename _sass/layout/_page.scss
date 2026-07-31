@@ -214,65 +214,81 @@
     margin-top: 1.75rem;
   }
 
-  .news-timeline {
-    position: relative;
-    margin: 0.9rem 0 1.75rem;
-    padding-left: 2.35rem;
+  #news {
+    margin-top: 3rem;
+  }
 
-    &::before {
-      content: "";
-      position: absolute;
-      top: 0.7rem;
-      bottom: 0.7rem;
-      left: 0.95rem;
-      width: 2px;
-      background: #e7c8bb;
-    }
+  .news-timeline {
+    margin: 1rem 0 1.75rem;
+    padding: 0;
   }
 
   .news-timeline__item {
-    position: relative;
     display: flex;
     align-items: flex-start;
-    margin-bottom: 1.35rem;
+    gap: 1rem;
+    position: relative;
+    min-height: 3.25rem;
+    padding-bottom: 1.35rem;
   }
 
   .news-timeline__item:last-child {
-    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .news-timeline__rail {
+    position: relative;
+    flex: 0 0 2rem;
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .news-timeline__item:not(:last-child) .news-timeline__rail::after {
+    content: "";
+    position: absolute;
+    top: 2rem;
+    bottom: -1.35rem;
+    left: 50%;
+    width: 2px;
+    background: #d4a08c;
+    transform: translateX(-50%);
   }
 
   .news-timeline__marker {
-    position: absolute;
-    left: -2.35rem;
-    top: 0.05rem;
-    width: 1.9rem;
-    height: 1.9rem;
+    position: relative;
+    z-index: 1;
+    width: 2rem;
+    height: 2rem;
     border-radius: 50%;
     background: var(--global-bg-color);
-    border: 2px solid #e7c8bb;
-    box-shadow: 0 0 0 3px var(--global-bg-color);
+    border: 2px solid #d4a08c;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 0.85rem;
+    font-size: 0.9rem;
     line-height: 1;
+    box-sizing: border-box;
   }
 
-  .news-timeline__content {
+  .news-timeline__body {
+    flex: 1 1 auto;
     min-width: 0;
+    padding-top: 0.15rem;
   }
 
   .news-timeline__date {
-    display: inline-block;
-    margin-bottom: 0.2rem;
+    display: block;
+    margin: 0 0 0.25rem;
     color: #b9785d;
     font-size: 0.85em;
     font-weight: 700;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.03em;
     font-variant-numeric: tabular-nums;
   }
 
-  .news-timeline__content p {
+  .news-timeline__body p {
     margin: 0;
     color: var(--global-text-color);
     font-size: 0.98em;
