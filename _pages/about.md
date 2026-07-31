@@ -48,17 +48,17 @@ Research
 ======
 <div class="research-publication">
   <div class="research-publication__media">
-    <img src="{{ '/images/ConG.png' | relative_url }}" alt="Metric overview" style="width:100%;display:block;border-radius:6px;">
+    <img src="{{ '/images/ConG.png' | relative_url }}" alt="Contrastive Weak-to-strong Generalization" style="width:100%;display:block;border-radius:6px;">
   </div>
   <div class="research-publication__body">
     <p><a href="https://arxiv.org/abs/2510.07884">Contrastive Weak-to-strong Generalization</a></p>
-    <p>Included author</p>
+    <p>Houcheng Jiang, Junfeng Fang, <strong>Jiaxin Wu</strong>, Tianyu Zhang, Chen Gao, Xiang Wang, Xiangnan He, Yang Deng</p>
   </div>
 </div>
 
 <div class="research-publication">
   <div class="research-publication__media">
-    <img src="{{ '/images/metric.png' | relative_url }}" alt="Metric overview" style="width:100%;display:block;border-radius:6px;">
+    <img src="{{ '/images/metric.png' | relative_url }}" alt="PDI-Bench overview" style="width:100%;display:block;border-radius:6px;">
   </div>
   <div class="research-publication__body">
     <p><a href="https://pdi-bench.github.io/">Quantitative Video World Model Evaluation for Geometric-Consistency</a></p>

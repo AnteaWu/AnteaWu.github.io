@@ -210,6 +210,10 @@
     margin-top: 0.75rem;
   }
 
+  .research-publication + .research-publication {
+    margin-top: 1.75rem;
+  }
+
   .research-publication__media {
     flex: 0 0 280px;
     max-width: 280px;
