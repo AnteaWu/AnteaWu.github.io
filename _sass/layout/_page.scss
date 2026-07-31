@@ -214,6 +214,39 @@
     margin-top: 1.75rem;
   }
 
+  .news-list {
+    margin: 0.75rem 0 1.5rem;
+  }
+
+  .news-list__item {
+    display: flex;
+    align-items: baseline;
+    gap: 0.85rem;
+    margin-bottom: 0.65rem;
+    line-height: 1.5;
+  }
+
+  .news-list__item:last-child {
+    margin-bottom: 0;
+  }
+
+  .news-list__date {
+    flex: 0 0 3.2em;
+    color: #b0b5ba;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .news-list__icon {
+    flex: 0 0 1.5em;
+    text-align: center;
+  }
+
+  .news-list__text {
+    flex: 1 1 auto;
+    color: var(--global-text-color);
+  }
+
   .research-publication__media {
     flex: 0 0 280px;
     max-width: 280px;

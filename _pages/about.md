@@ -66,3 +66,25 @@ Research
   </div>
 </div>
 
+News
+======
+
+<div class="news-list">
+  <div class="news-list__item">
+    <span class="news-list__date">2509</span>
+    <span class="news-list__icon" aria-hidden="true">🏆</span>
+    <span class="news-list__text">Awarded the National Scholarship(Top 1%).</span>
+  </div>
+
+  <div class="news-list__item">
+    <span class="news-list__date">2509</span>
+    <span class="news-list__icon" aria-hidden="true">🌟</span>
+    <span class="news-list__text">Served as President of the Student Union, School of Artificial Intelligence and Data Science, USTC.</span>
+  </div>
+
+    <div class="news-list__item">
+    <span class="news-list__date">2409</span>
+    <span class="news-list__icon" aria-hidden="true">🏆</span>
+    <span class="news-list__text">Awarded the National Scholarship(Top 1%).</span>
+  </div>
+</div>
